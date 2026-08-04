@@ -57,9 +57,9 @@ let generated_id = repo.insert_entity(&user).await?;
 |---------|---------|---------|
 | 0 | knowledgebase | `SDKWORK_KNOWLEDGEBASE_SNOWFLAKE_NODE_ID` |
 | 1 | user-center | hardcoded |
-| 21 | claw-router admin app | hardcoded |
-| 22 | claw-router admin skill | hardcoded |
-| 23 | claw-router runtime | `SDKWORK_CLAW_SNOWFLAKE_NODE_ID` |
+| 21 | cloud-router admin app | hardcoded |
+| 22 | cloud-router admin skill | hardcoded |
+| 23 | cloud-router runtime | `SDKWORK_CLOUDROUTER_SNOWFLAKE_NODE_ID` |
 | 31 | drive | `SDKWORK_DRIVE_SNOWFLAKE_NODE_ID` |
 | 41 | local-router | `SDKWORK_LR_SNOWFLAKE_NODE_ID` |
 
