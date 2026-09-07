@@ -53,3 +53,8 @@ Thumbs.db
 Thumbs.db
 # Runtime-generated environment configuration
 **/public/runtime-env.json
+.workbuddy/
+/_tmp_*
+/NUL.*
+
+# Local build artifacts / workspace junk (auto-sync)
