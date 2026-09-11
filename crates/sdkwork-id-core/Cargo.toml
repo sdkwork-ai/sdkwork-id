@@ -1,9 +1,13 @@
 [package]
+rust-version.workspace = true
 name = "sdkwork-id-core"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
 description = "SDKWork unified ID generation: Snowflake int64 and UUID"
 
+
+[lints]
+workspace = true
 [dependencies]
 uuid = { workspace = true }
