@@ -11,19 +11,11 @@ node_modules/
 .env.*
 !.env.example
 !.env.*.example
-.env.local
-.env.development.local
-.env.test.local
-.env.staging.local
-.env.production.local
-.env.postgres
-.env.release.local
 
 # SDKWork local runtime state
 .runtime/
 **/.runtime/
 **/target/
-!.env.postgres.example
 dist/
 **/dist/
 coverage/
